@@ -1,0 +1,591 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"input",
+				"input-container"
+			],
+			[
+				"else",
+				"elseif\telseif …"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"arr",
+				"arrString"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"background",
+				"background-image\tproperty"
+			],
+			[
+				"backgroun",
+				"background-image\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"sha",
+				"box-shadow\tproperty"
+			],
+			[
+				"gain",
+				"gainF"
+			],
+			[
+				"fonbet",
+				"fonbetM"
+			],
+			[
+				"fonbe",
+				"fonbetM_money"
+			],
+			[
+				"xsta",
+				"xstavkaB_money"
+			],
+			[
+				"this",
+				"this-"
+			],
+			[
+				"fon",
+				"fonbet_event_id"
+			],
+			[
+				"x",
+				"x_event_id"
+			],
+			[
+				"val",
+				"val1"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"double",
+				"double"
+			],
+			[
+				"value",
+				"value"
+			],
+			[
+				"valuee",
+				"valuee"
+			],
+			[
+				"arrE",
+				"arrE_M"
+			],
+			[
+				"ze",
+				"zero_half"
+			],
+			[
+				"html",
+				"html1"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"url",
+				"url2"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"event",
+				"event"
+			],
+			[
+				"bg-i",
+				"background-image\tproperty"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"e",
+				"events"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"map",
+				"map_block_top"
+			],
+			[
+				"int",
+				"intst"
+			],
+			[
+				"map_height",
+				"map_height_null"
+			],
+			[
+				"map_",
+				"map_height_null"
+			],
+			[
+				"ma",
+				"map_height"
+			],
+			[
+				"div",
+				"div"
+			],
+			[
+				"le",
+				"length-1"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"buffer",
+				"buffer_name_array"
+			],
+			[
+				"my",
+				"myCollection"
+			],
+			[
+				"mys",
+				"mysql_error"
+			],
+			[
+				"curl_e",
+				"curl_exec"
+			],
+			[
+				"curl_",
+				"curl_setopt"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 5213,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 582,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 266,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax: scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 206.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/OSPanel/domains/diplom",
+		"/D/OSPanel/domains/diplom/css"
+	],
+	"file_history":
+	[
+		"/D/OSPanel/domains/diplom/list.php",
+		"/D/OSPanel/domains/betforks/libs/bets.php",
+		"/D/OSPanel/domains/betforks/fork.php",
+		"/D/OSPanel/domains/diplom/index.php",
+		"/C/Users/Ramazan/.v8flags.6.2.414.66.620f8f280e9e91e0f3161f50869d41ee.json",
+		"/C/Users/Ramazan/.ssh/id_rsa",
+		"/C/Users/Ramazan/.ssh/id_rsa.pub",
+		"/D/OSPanel/domains/diplom/icon_customImage.js",
+		"/D/OSPanel/domains/betparseroop/css/main.css",
+		"/D/OSPanel/domains/betparseroop/index.html",
+		"/D/OSPanel/domains/betparseroop/main.js",
+		"/D/OSPanel/domains/ecommpay-master/package.json",
+		"/D/OSPanel/domains/betparseroop/libs/bets.php",
+		"/D/OSPanel/domains/betparseroop/fork.php",
+		"/D/OSPanel/domains/ecommpay-master/gulpfile.js",
+		"/D/OSPanel/domains/betparseroop/bets.php",
+		"/D/OSPanel/domains/betparseroop/main.css",
+		"/D/OSPanel/domains/betparseroop/fonts/fonts.css",
+		"/D/OSPanel/domains/betparser/index.html",
+		"/D/OSPanel/domains/betparser/functions.php",
+		"/D/OSPanel/domains/betparser/bets.php",
+		"/D/OSPanel/domains/betparser/fork.php",
+		"/D/OSPanel/domains/betparser/main.js",
+		"/C/Users/Ramazan/Desktop/ekzamen/main.js",
+		"/C/Users/Ramazan/Desktop/ekzamen/index.html",
+		"/C/Users/Ramazan/Desktop/ekzamen/main.css",
+		"/D/OSPanel/domains/betparser/script.js",
+		"/D/OSPanel/domains/betparser/index.php",
+		"/C/Users/Ramazan/Desktop/курсовая/kurs/jquery.min.js",
+		"/C/Users/Ramazan/Desktop/курсовая/kurs/connection.php",
+		"/C/Users/Ramazan/Desktop/курсовая/kurs/encoder.js",
+		"/C/Users/Ramazan/Desktop/курсовая/kurs/icon_customImage.js",
+		"/C/Users/Ramazan/Desktop/курсовая/kurs/index.php",
+		"/C/Users/Ramazan/Desktop/курсовая/kurs/button.js",
+		"/D/OSPanel/domains/betparser/.htaccess",
+		"/C/Users/Ramazan/Desktop/11",
+		"/D/OSPanel/domains/bizandsoft/index.php",
+		"/D/localProjects/funbox/source/style/main.scss",
+		"/D/localProjects/ecommpay/source/style/main.scss",
+		"/D/localProjects/ecommpay/source/pug/index.pug",
+		"/C/Users/Ramazan/Desktop/Кристал Пэлэс - Манчестер Сити смотреть онлайн • Футбол • Трансляция и LIVE ставки • 1xstavka.ru.html",
+		"/D/localProjects/ecommpay/node_modules/bootstrap/scss/bootstrap.scss",
+		"/D/localProjects/ecommpay/build/css/main.css",
+		"/D/localProjects/ecommpay/gulpfile.js",
+		"/D/localProjects/funbox/source/pug/pages/index.pug",
+		"/D/localProjects/ecommpay/source/html/index.pug",
+		"/D/localProjects/ecommpay/build/index.html",
+		"/D/localProjects/keaz-testwork/gulpfile.js",
+		"/D/localProjects/funbox/gulpfile.js",
+		"/D/localProjects/keaz-testwork/package.json",
+		"/D/localProjects/norbit/source/pug/index.pug",
+		"/D/localProjects/norbit/gulpfile.js",
+		"/C/Users/Ramazan/Dropbox/projects/deadpoolPageNovatest/build/index.html",
+		"/D/OSPanel/domains/kurs/connection.php",
+		"/D/OSPanel/domains/kurs/css/main.css",
+		"/D/OSPanel/domains/kurs/button.js",
+		"/D/OSPanel/domains/kurs/encoder.js",
+		"/D/OSPanel/domains/kurs/index.php",
+		"/D/OSPanel/domains/kurs/icon_customImage.js",
+		"/C/Users/Ramazan/Downloads/1.html",
+		"/C/Users/Ramazan/Downloads/%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B8%CC%86%20%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82",
+		"/D/OSPanel/domains/kurs/script.html",
+		"/D/funbox/source/pug/pages/index.pug",
+		"/D/localProjects/keaz-testwork/source/pug/pages/index.pug",
+		"/C/Users/Ramazan/AppData/Local/Temp/Temp1_bizandsoft.zip/bizandsoft/index.php",
+		"/C/Users/Ramazan/Desktop/война2.ppt",
+		"/D/OSPanel/domains/bizandsoft/parser.php",
+		"/D/OSPanel/domains/bizandsoft/.htaccess",
+		"/D/OSPanel/domains/bizandsoft/simple_html_dom.php",
+		"/D/OSPanel/domains/bizandsoft/curl_query.php",
+		"/C/Users/Ramazan/AppData/Local/Temp/Temp1_1145_dz1.zip/src/index.js",
+		"/C/Users/Ramazan/Documents/localProjects/keaz-testwork/.gitignore",
+		"/C/Users/Ramazan/AppData/Local/Temp/Temp1_1145_dz1.zip/test/index.js",
+		"/C/Users/Ramazan/Documents/localProjects/keaz-testwork/1",
+		"/C/Users/Ramazan/Documents/localProjects/keaz-testwork/source/pug/pages/index.pug",
+		"/C/Users/Ramazan/Documents/localProjects/keaz-testwork/source/pug/pages/work.pug",
+		"/C/Users/Ramazan/Documents/localProjects/keaz-testwork/source/style/fonts/fonts.scss",
+		"/C/Users/Ramazan/Documents/localProjects/keaz-testwork/source/js/main.js",
+		"/C/Users/Ramazan/Documents/localProjects/keaz-testwork/source/style/main.scss",
+		"/C/Users/Ramazan/Documents/localProjects/keaz-testwork/source/style/mixins/mixins.scss",
+		"/C/Users/Ramazan/Documents/localProjects/funbox/source/pug/pages/index.pug",
+		"/C/Users/Ramazan/Documents/localProjects/funbox/gulpfile.js",
+		"/C/Users/Ramazan/Documents/localProjects/funbox/package.json",
+		"/C/Users/Ramazan/Documents/localProjects/funbox/package-lock.json",
+		"/C/Users/Ramazan/Documents/localProjects/package.json",
+		"/C/Users/Ramazan/Documents/localProjects/gulpfile.js"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"психологические",
+			"$value"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1268,
+								1268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "diplom.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 128.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
