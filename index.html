@@ -1,0 +1,148 @@
+
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<title>Дипломный проект</title>
+	<meta charset="UTF-8">
+	<meta name="viewport", content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+	<div id="app" class="wrapper">
+		<header>
+		<div class="header-wrapper">
+			<h1 class="header-text">Реестр поставщиков социальных услуг Курской области</h1>
+		</div>
+		</header>
+		<div class="body-wrapper">
+			<section class="content-block">
+				<div class="filter-block">
+					<form method="POST">
+						<div class="input-container">
+							<span class="input-container__title">Поиск по наименованию</span>
+							<input v-model="organizationName" class="input-container__field" type="text" name="organization_name">
+						</div>
+						<div class="input-container">
+							<span class="input-container__title">Муниципальные образования</span>
+							<select name="mun_obrazovaniya" id="">
+								<option value="" selected></option>
+								<option value="Беловский">Беловский район</option>
+								<option value="Горшеченский">Горшеченский район</option>
+								<option value="Золотухинский">Золотухинский район</option>
+								<option value="Кореневский">Кореневский район</option>
+								<option value="Льговский">Льговский район</option>
+								<option value="Обоянский">Обоянский район</option>
+								<option value="Пристенский">Пристенский район</option>
+								<option value="Солнцевский">Солнцевский район</option>
+								<option value="Фатежский">Фатежский район</option>
+								<option value="Щигровский">Щигровский район</option>
+								<option value="Большесолдатский">Большесолдатский район</option>
+								<option value="Дмитриевский">Дмитриевский район</option>
+								<option value="Касторенский">Касторенский район</option>
+								<option value="Курский">Курский район</option>
+								<option value="Мантуровский">Мантуровский район</option>
+								<option value="Октябрьский">Октябрьский район</option>
+								<option value="Рыльский">Рыльский район</option>
+								<option value="Суджанский">Суджанский район</option>
+								<option value="Хомутовский">Хомутовский район</option>
+								<option value="Глушковский">Глушковский район</option>
+								<option value="Железногорский">Железногорский район</option>
+								<option value="Конышевский">Конышевский район</option>
+								<option value="Курчатовский">Курчатовский район</option>
+								<option value="Медвенский">Медвенский район</option>
+								<option value="Поныровский">Поныровский район</option>
+								<option value="Советский">Советский район</option>
+								<option value="Тимский">Тимский район</option>
+								<option value="Черемисиновский">Черемисиновский район</option>
+							</select>
+						</div>
+						<div class="input-container">
+							<span class="input-container__title">Вид организации</span>
+							<select name="organization_type" id="">
+								<option value="" selected></option>
+								<option value="Детский дом-интернат для умственно отсталых детей">Детский дом-интернат для умственно отсталых детей</option>
+								<option value="Дом-интернат для престарелых и инвалидов">Дом-интернат для престарелых и инвалидов</option>
+								<option value="Психоневрологический интернат">Психоневрологический интернат</option>
+								<option value="Реабилитационный центр для детей и подростков с ограниченными возможностями">Реабилитационный центр для детей и подростков с ограниченными возможностями</option>
+								<option value="Социальный приют для детей и подростков">Социальный приют для детей и подростков</option>
+								<option value="Центр социальной адаптации для лиц без определенного места жительства и занятий">Центр социальной адаптации для лиц без определенного места жительства и занятий</option>
+								<option value="Центр социальной помощи семье и детям">Центр социальной помощи семье и детям</option>
+								<option value="Центр реабилитации инвалидов">Центр реабилитации инвалидов</option>
+								<option value="Центр социального обслуживания населения">Центр социального обслуживания населения</option>
+							</select>
+						</div>
+						<div class="input-container">
+							<span class="input-container__title">Форма обслуживания</span>
+							<div class="input-container__block">
+								<span class="input-block__title">стационарная</span>
+								<input type="checkbox" name="stacionar" value="стационарная">
+								<span class="input-block__title">полустационарная</span>
+								<input type="checkbox" name="polustacionar" value="полустационарная">
+								<span class="input-block__title">на дому</span>
+								<input type="checkbox" name="nadomu" value="на дому">
+							</div>			
+						</div>	
+						<div class="input-container">
+							<span class="input-container__title">Вид социальных услуг</span>
+							<div class="input-container__block">
+								<span class="input-block__title">социально-бытовые</span>
+								<input type="checkbox" name="bytovyye" value="социально-бытовые">
+								<span class="input-block__title">социально-медицинские</span>
+								<input type="checkbox" name="medicinskiye" value="социально-медицинские">
+								<span class="input-block__title">социально-психологические</span>
+								<input type="checkbox" name="psihologicheskiye" value="социально-психологические">
+								<span class="input-block__title">социально-педагогические</span>
+								<input type="checkbox" name="pedagogicheskie" value="социально-педагогические">
+								<span class="input-block__title">социально-трудовые</span>
+								<input type="checkbox" name="trudovyye" value="социально-трудовые">
+								<span class="input-block__title">социально-правовые</span>
+								<input type="checkbox" name="pravovyye" value="социально-правовые">
+								<span class="input-block__title">срочные социальные услуги</span>
+								<input type="checkbox" name="srochnyye" value="срочные социальные услуги">
+								<span class="input-block__title">услуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности</span>
+								<input type="checkbox" name="kommunikat_potencial" value="услуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности">
+							</div>
+						</div>
+						<div class="input-container">
+							<span class="input-container__title">Категория получателей</span>
+							<div class="input-container__block">
+								<span class="input-block__title">дети</span>
+								<input type="checkbox" name="deti" value="дети">
+								<span class="input-block__title">семьи с детьми</span>
+								<input type="checkbox" name="semyi" value="семьи с детьми">
+								<span class="input-block__title">дети инвалиды</span>
+								<input type="checkbox" name="deti" value="дети инвалиды">
+								<span class="input-block__title">инвалиды(взрослые)</span>
+								<input type="checkbox" name="invalidy" value="инвалиды(взрослые)">
+								<span class="input-block__title">граждане пожилого возраста</span>
+								<input type="checkbox" name="pojiliye" value="граждане пожилого возраста">
+								<span class="input-block__title">лица БОМЖ</span>
+								<input type="checkbox" name="bomji" value="лица БОМЖ">
+							</div>	
+						</div>
+						<div class="input-container">
+							<span class="input-container__title">Категория получателей</span>
+							<div class="input-container__block">
+							    <span class="input-container__block">государственная</span>
+							    <input type="checkbox" name="state" value="государственная">
+								<span class="input-container__block">муниципальная</span>
+								<input type="checkbox" name="municipal" value="муниципальная">
+								<span class="input-container__block">частная</span>
+								<input type="checkbox" name="private" value="частная">
+							</div>
+						</div>
+						<button type="reset">Сбросить фильтр</button>
+					</form>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+<script src="main.js"></script>
+<script src="encoder.js" type="text/javascript"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=dc8a2989-b85b-4663-b372-a8882b2704ae" type="text/javascript"></script>
+<script src="icon_customImage.js" type="text/javascript"></script>
+<script src="button.js" type="text/javascript"></script>
+<html>
