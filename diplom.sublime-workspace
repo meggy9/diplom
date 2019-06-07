@@ -212,19 +212,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5213,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/main.css",
-			"settings":
-			{
-				"buffer_size": 582,
+				"buffer_size": 8516,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -233,7 +224,7 @@
 			"file": "main.js",
 			"settings":
 			{
-				"buffer_size": 266,
+				"buffer_size": 856,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -292,10 +283,13 @@
 	],
 	"file_history":
 	[
+		"/D/OSPanel/domains/diplom/encoder.js",
+		"/D/OSPanel/domains/diplom/main.js",
+		"/D/OSPanel/domains/diplom/css/main.css",
+		"/D/OSPanel/domains/diplom/index.php",
 		"/D/OSPanel/domains/diplom/list.php",
 		"/D/OSPanel/domains/betforks/libs/bets.php",
 		"/D/OSPanel/domains/betforks/fork.php",
-		"/D/OSPanel/domains/diplom/index.php",
 		"/C/Users/Ramazan/.v8flags.6.2.414.66.620f8f280e9e91e0f3161f50869d41ee.json",
 		"/C/Users/Ramazan/.ssh/id_rsa",
 		"/C/Users/Ramazan/.ssh/id_rsa.pub",
@@ -381,7 +375,7 @@
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -395,6 +389,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			",",
+			"value",
+			": ''",
+			"name",
+			"model",
 			"психологические",
 			"$value"
 		],
@@ -414,93 +413,65 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5213,
+						"buffer_size": 8516,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1268,
-								1268
+								8107,
+								8107
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 560.0,
+						"translation.y": 329.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 582,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								70,
-								70
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 266,
+						"buffer_size": 856,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								260
+								323,
+								323
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -508,7 +479,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -545,7 +516,7 @@
 	"project": "diplom.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -583,7 +554,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 128.0,
+	"side_bar_width": 185.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

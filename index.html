@@ -19,48 +19,48 @@
 		<div class="body-wrapper">
 			<section class="content-block">
 				<div class="filter-block">
-					<form method="POST">
+					<form method="POST" id="ajax_form" action="">
 						<div class="input-container">
 							<span class="input-container__title">Поиск по наименованию</span>
 							<input v-model="organizationName" class="input-container__field" type="text" name="organization_name">
 						</div>
 						<div class="input-container">
 							<span class="input-container__title">Муниципальные образования</span>
-							<select name="mun_obrazovaniya" id="">
+							<select v-model="area" name="area" id="">
 								<option value="" selected></option>
-								<option value="Беловский">Беловский район</option>
-								<option value="Горшеченский">Горшеченский район</option>
-								<option value="Золотухинский">Золотухинский район</option>
-								<option value="Кореневский">Кореневский район</option>
-								<option value="Льговский">Льговский район</option>
-								<option value="Обоянский">Обоянский район</option>
-								<option value="Пристенский">Пристенский район</option>
-								<option value="Солнцевский">Солнцевский район</option>
-								<option value="Фатежский">Фатежский район</option>
-								<option value="Щигровский">Щигровский район</option>
-								<option value="Большесолдатский">Большесолдатский район</option>
-								<option value="Дмитриевский">Дмитриевский район</option>
-								<option value="Касторенский">Касторенский район</option>
-								<option value="Курский">Курский район</option>
-								<option value="Мантуровский">Мантуровский район</option>
-								<option value="Октябрьский">Октябрьский район</option>
-								<option value="Рыльский">Рыльский район</option>
-								<option value="Суджанский">Суджанский район</option>
-								<option value="Хомутовский">Хомутовский район</option>
-								<option value="Глушковский">Глушковский район</option>
-								<option value="Железногорский">Железногорский район</option>
-								<option value="Конышевский">Конышевский район</option>
-								<option value="Курчатовский">Курчатовский район</option>
-								<option value="Медвенский">Медвенский район</option>
-								<option value="Поныровский">Поныровский район</option>
-								<option value="Советский">Советский район</option>
-								<option value="Тимский">Тимский район</option>
-								<option value="Черемисиновский">Черемисиновский район</option>
+								<option>Беловский район</option>
+								<option>Горшеченский район</option>
+								<option>Золотухинский район</option>
+								<option>Кореневский район</option>
+								<option>Льговский район</option>
+								<option>Обоянский район</option>
+								<option>Пристенский район</option>
+								<option>Солнцевский район</option>
+								<option>Фатежский район</option>
+								<option>Щигровский район</option>
+								<option>Большесолдатский район</option>
+								<option>Дмитриевский район</option>
+								<option>Касторенский район</option>
+								<option>Курский район</option>
+								<option>Мантуровский район</option>
+								<option>Октябрьский район</option>
+								<option>Рыльский район</option>
+								<option>Суджанский район</option>
+								<option>Хомутовский район</option>
+								<option>Глушковский район</option>
+								<option>Железногорский район</option>
+								<option>Конышевский район</option>
+								<option>Курчатовский район</option>
+								<option>Медвенский район</option>
+								<option>Поныровский район</option>
+								<option>Советский район</option>
+								<option>Тимский район</option>
+								<option>Черемисиновский район</option>
 							</select>
 						</div>
 						<div class="input-container">
 							<span class="input-container__title">Вид организации</span>
-							<select name="organization_type" id="">
+							<select v-model="organizationType" name="organization_type" id="">
 								<option value="" selected></option>
 								<option value="Детский дом-интернат для умственно отсталых детей">Детский дом-интернат для умственно отсталых детей</option>
 								<option value="Дом-интернат для престарелых и инвалидов">Дом-интернат для престарелых и инвалидов</option>
@@ -77,64 +77,67 @@
 							<span class="input-container__title">Форма обслуживания</span>
 							<div class="input-container__block">
 								<span class="input-block__title">стационарная</span>
-								<input type="checkbox" name="stacionar" value="стационарная">
+								<input v-model="serviceForm" type="checkbox" name="stacionar" value="стационарная">
 								<span class="input-block__title">полустационарная</span>
-								<input type="checkbox" name="polustacionar" value="полустационарная">
+								<input v-model="serviceForm" type="checkbox" name="polustacionar" value="полустационарная">
 								<span class="input-block__title">на дому</span>
-								<input type="checkbox" name="nadomu" value="на дому">
+								<input v-model="serviceForm" type="checkbox" name="nadomu" value="на дому">
 							</div>			
 						</div>	
 						<div class="input-container">
 							<span class="input-container__title">Вид социальных услуг</span>
 							<div class="input-container__block">
 								<span class="input-block__title">социально-бытовые</span>
-								<input type="checkbox" name="bytovyye" value="социально-бытовые">
+								<input v-model="socialServicesType" type="checkbox" name="bytovyye" value="социально-бытовые">
 								<span class="input-block__title">социально-медицинские</span>
-								<input type="checkbox" name="medicinskiye" value="социально-медицинские">
+								<input v-model="socialServicesType" type="checkbox" name="medicinskiye" value="социально-медицинские">
 								<span class="input-block__title">социально-психологические</span>
-								<input type="checkbox" name="psihologicheskiye" value="социально-психологические">
+								<input v-model="socialServicesType" type="checkbox" name="psihologicheskiye" value="социально-психологические">
 								<span class="input-block__title">социально-педагогические</span>
-								<input type="checkbox" name="pedagogicheskie" value="социально-педагогические">
+								<input v-model="socialServicesType" type="checkbox" name="pedagogicheskie" value="социально-педагогические">
 								<span class="input-block__title">социально-трудовые</span>
-								<input type="checkbox" name="trudovyye" value="социально-трудовые">
+								<input v-model="socialServicesType" type="checkbox" name="trudovyye" value="социально-трудовые">
 								<span class="input-block__title">социально-правовые</span>
-								<input type="checkbox" name="pravovyye" value="социально-правовые">
+								<input v-model="socialServicesType" type="checkbox" name="pravovyye" value="социально-правовые">
 								<span class="input-block__title">срочные социальные услуги</span>
-								<input type="checkbox" name="srochnyye" value="срочные социальные услуги">
+								<input v-model="socialServicesType" type="checkbox" name="srochnyye" value="срочные социальные услуги">
 								<span class="input-block__title">услуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности</span>
-								<input type="checkbox" name="kommunikat_potencial" value="услуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности">
+								<input v-model="socialServicesType" type="checkbox" name="kommunikat_potencial" value="услуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности">
 							</div>
 						</div>
 						<div class="input-container">
 							<span class="input-container__title">Категория получателей</span>
 							<div class="input-container__block">
 								<span class="input-block__title">дети</span>
-								<input type="checkbox" name="deti" value="дети">
+								<input v-model="recipientCategory" type="checkbox" name="deti" value="дети">
 								<span class="input-block__title">семьи с детьми</span>
-								<input type="checkbox" name="semyi" value="семьи с детьми">
+								<input v-model="recipientCategory" type="checkbox" name="semyi" value="семьи с детьми">
 								<span class="input-block__title">дети инвалиды</span>
-								<input type="checkbox" name="deti" value="дети инвалиды">
+								<input v-model="recipientCategory" type="checkbox" name="deti_invalidy" value="дети инвалиды">
 								<span class="input-block__title">инвалиды(взрослые)</span>
-								<input type="checkbox" name="invalidy" value="инвалиды(взрослые)">
+								<input v-model="recipientCategory" type="checkbox" name="invalidy" value="инвалиды(взрослые)">
 								<span class="input-block__title">граждане пожилого возраста</span>
-								<input type="checkbox" name="pojiliye" value="граждане пожилого возраста">
+								<input v-model="recipientCategory" type="checkbox" name="pojiliye" value="граждане пожилого возраста">
 								<span class="input-block__title">лица БОМЖ</span>
-								<input type="checkbox" name="bomji" value="лица БОМЖ">
+								<input v-model="recipientCategory" type="checkbox" name="bomji" value="лица БОМЖ">
 							</div>	
 						</div>
 						<div class="input-container">
-							<span class="input-container__title">Категория получателей</span>
+							<span class="input-container__title">Форма собственности</span>
 							<div class="input-container__block">
 							    <span class="input-container__block">государственная</span>
-							    <input type="checkbox" name="state" value="государственная">
+							    <input v-model="ownershipType" type="checkbox" name="state" value="государственная">
 								<span class="input-container__block">муниципальная</span>
-								<input type="checkbox" name="municipal" value="муниципальная">
+								<input v-model="ownershipType" type="checkbox" name="municipal" value="муниципальная">
 								<span class="input-container__block">частная</span>
-								<input type="checkbox" name="private" value="частная">
+								<input v-model="ownershipType" type="checkbox" name="private" value="частная">
 							</div>
 						</div>
 						<button type="reset">Сбросить фильтр</button>
 					</form>
+				</div>
+				<div class="result-block">
+					
 				</div>
 			</section>
 		</div>
